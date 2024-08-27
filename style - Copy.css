@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #32543B;
+    color: white;
+}
+
+.header {
+    background-color: #2B4A35;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.auth-buttons .login {
+    border: 1px solid white;
+}
+
+.auth-buttons .get-started {
+    background-color: white;
+    color: #2B4A35;
+}
+
+.auth-buttons .get-started:hover {
+    background-color: #F1F1F1;
+}
+
+
+.cta-button {
+    text-align: center;
+    border-radius: 0cap;
+    
+   
+    }
+
+#hero {
+    background-color: rgb(58, 148, 58);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+
+}
+
+
+#hero img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+
+#about, #projects, #contact {
+    padding: 20px;
+    background-color: rgb(49, 130, 49);
+    margin: 20px 0;
+       
+}
+
+#about h2, #projects h2, #contact h2 {
+    text-align: center;
+    color: #333;
+}
+
+.project {
+    background-color: rgb(44, 131, 44);
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: rgb(9, 66, 35);
+    color:black;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: rgb(41, 135, 41);
+    border-radius: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #32543B;
+    color:black;
+}
+
+.footer {
+    background-color: #2B4A35;
+    padding: 40px 0;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFD700; /* Gold color for headings */
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #FFD700; /* Gold color for hover */
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%); /* Invert to white icons */
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+
